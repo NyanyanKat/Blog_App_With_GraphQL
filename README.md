@@ -2,7 +2,7 @@
 
 With featured and recent posts, categories, full markdown articles, author information, comments, and much more, this fully responsive HeadlessCMS Blog App is the finest GraphQL Blog Application. Best of all, you can manage the blog from a dedicated Content Management System. Built with the newest technologies such as React JS, NextJS, Tailwind CSS, GraphQL, and GraphCMS.
 
-## Get the App in Javascript
+### Note: Get the App in Javascript
 
 npx create-next-app@latest [nameOfYourApp] tailwind.config.js
 
