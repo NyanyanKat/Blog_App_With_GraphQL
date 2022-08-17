@@ -4,7 +4,7 @@ With featured and recent posts, categories, full markdown articles, author infor
 
 ### Note: Get the App in Javascript
 
-npx create-next-app@latest [nameOfYourApp] tailwind.config.js
+npx create-next-app@latest [nameOfYourApp] (ex. blog_app) tailwind.config.js
 
 # Features
 
