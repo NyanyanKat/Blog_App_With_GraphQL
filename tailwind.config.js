@@ -8,4 +8,5 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  "editor.inlineSuggest.enabled": true,
 };
