@@ -28,16 +28,19 @@ This application includes the major features of a blog such as
 
 # Completed Tasks
 
-- home feed
-- graphQL models
-- fetch and display posts
+- home feed showing post quickviews
+- graphQL models and API requests
+- fetch and display post detail pages with slug
 - conditionally rendered post widgets
--
+- post, show comments and approve comments functionality
+- local storage for memorizing user name and email
+- adjacent posts within post pages
+- categories and recent posts feed
+- featured posts in carousel
 
 # Todo Tasks
 
 - user login/logout
-- related posts
-- comments
-- post page
-- etc
+- edit/delete comments (tied to user)
+- admin account
+- to be determined
