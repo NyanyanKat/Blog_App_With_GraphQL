@@ -7,8 +7,7 @@ const Comments = ({ slug }) => {
   const [comments, setComments] = useState([]);
 
   useEffect(() => {
-    getComments(slug)
-      .then(result=> setComments(result))
+    getComments(slug).then((result) => setComments(result));
   });
   return (
     <>
@@ -17,7 +16,7 @@ const Comments = ({ slug }) => {
           <h3 className="text-xl mb-8 font-semibold border-b pb-4">
             {comments.length} Comments
           </h3>
-          {comments.reverse().map((comment) => (
+          {comments.map((comment) => (
             <div
               key={comment.createdAt}
               className="border-b border-gray-100 mb-4 pb-4"
