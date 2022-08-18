@@ -83,7 +83,7 @@ const FeaturedPosts = () => {
         itemClass="px-4"
       >
         {dataLoaded &&
-          featuredPosts.reverse().map((post, index) => (
+          featuredPosts.map((post, index) => (
             <FeaturedPostCard key={index} post={post} />
           ))}
       </Carousel>
