@@ -19,7 +19,7 @@ const Comments = ({ slug }) => {
           {" "}
           Comments
         </h3>
-        {comments.map(comment=> (
+        {comments.reverse().map(comment=> (
           <div key={comment.createdAt} className="border-b border-gray-100 mb-4 pb-4">
             <p className="mb-4">
               <span className="font-semibold">{comment.name}</span>
